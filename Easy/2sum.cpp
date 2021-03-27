@@ -4,7 +4,6 @@ public:
         
         vector<int>sol ;
         map<int ,int>m ;
-        
         for(int i = 0 ; i < nums.size() ; i++)
         {
             int num = target - nums[i];
@@ -16,7 +15,6 @@ public:
             }
             m[nums[i]] = i;
         }
-        
         return sol;
         
     }
